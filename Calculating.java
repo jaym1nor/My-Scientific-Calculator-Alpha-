@@ -1,23 +1,14 @@
-/*
-Name: Jayden Minor
-Date: 4/27/2024
-Class: Comp 167 Section 1
-Program: My Scientific Calculator
--- This program utilizes Java Swing and uses action events & listeners
-   to allow the user to interact with a GUI created and get responses
-   when buttons are clicked. Java's Math class allows swift computation of
-   numerous operations and functions in the calculator GUI.
-*/
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
 public class Calculating {
-
+    // Text Entry and Base of GUI Application 
     private JPanel Calculator;
     private JTextField displayText;
     private JTextField enterText;
+    // All Buttons Accessible on Calculator
     private JButton num7Button;
     private JButton num8Button;
     private JButton num9Button;
